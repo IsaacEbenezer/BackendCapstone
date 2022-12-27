@@ -12,7 +12,7 @@
 2. GET [http://localhost:3000/subscribers/names](http://localhost:3000/subscribers/names) to get array of subscribers with only name and subscribedChannel fields.
 
 3. GET [http://localhost:3000/subscribers/:id](http://localhost:3000/subscribers/:id) to get a subscriber by its unique id.
-> **Note:** If the wrong ***:id*** is entered in the url, then the client will encounter ```400 Bad Request``` status code indicating that the server 
+> **Note:** If the wrong ***:id*** is entered in the url, then the client will encounter ``` Bad Request``` status code indicating that the server 
 cannot or will not process the request due to something that is perceived to be a client error.
 
 <h4> Additional HTTP methods used </h4>
